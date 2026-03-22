@@ -7,7 +7,7 @@ The table maps **mathematical symbols** to **descriptions** and **Python code va
 
 ## Symbols, Descriptions, and Code Variables
 
-| Symbol / Variable | Description | Code Variable |
+| Math Variable | Description | Code Variable |
 |------------------|-------------|---------------|
 | **Sets** | | |
 | $J$ | Set of returned batteries (jobs) | `data["J"]` |
