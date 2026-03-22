@@ -39,10 +39,4 @@ The table maps **mathematical symbols** to **descriptions** and **Python code va
 | $w_{j,j',k} \in \{0,1\}$ | 1 if material dependency exists from $j$ to $j'$ | `w[(j,jp,k)]` |
 | $r^*$ | Selected route for job $j$ in upper-level model | `fixed_route_j[j]` |
 | $Z$ | Current stock of available modules (SMR heuristic) | `Z` |
-| `op_enqueue_order` | Operation scheduling order | `op_enqueue_order` |
-| `machine_available[m]` | Next available time of machine $m$ | `machine_available[m]` |
-| `job_last_completion[j]` | Last completion time of job $j$ | `job_last_completion[j]` |
-| `Operations` | List of $(o,j)$ tuples | `Operations` |
-| `op_int[(o,j)]` | CPLEX interval variable for operation | `op_int[(o,j)]` |
-| `machine_activities[m]` | Interval variables assigned to machine $m$ | `machine_activities[m]` |
 | $p_{o,j,m}$ | Processing time of operation $o$ of job $j$ on machine $m$ | `p_jorm[(j,o,r,m)]` |
